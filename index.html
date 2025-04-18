@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mp3 player</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- <div class="selection-bar">
+      <div class="selection-bar" id="select-artist"></div>
+      <div class="selection-bar" id="select-album"></div>
+      <div class="selection-bar" id="select-song"></div>
+    </div> -->
+    <div class="mp3-player">
+      <div class="track-display">
+        <div class="album-cover">
+          <img src="" alt="" class="album-cover" id="album-art" />
+        </div>
+        <div class="track" id="title"></div>
+        <div class="track" id="artist"></div>
+        <div class="track" id="album"></div>
+      </div>
+      <div class="controller">
+        <div class="duration-bar">
+          <div class="duration-bar" id="beginning">0:00</div>
+          <div class="duration-bar" id="bar"></div>
+          <div class="duration-bar" id="dot"></div>
+          <div class="duration-bar" id="end"></div>
+        </div>
+        <div class="buttons">
+          <div class="button" ><button class="button" id="rewind">rewind</button></div>
+          <div class="button" ><button class="button" id="play">play</button></div>
+          <div class="button" ><button class="button" id="fforward">fforward</button></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
